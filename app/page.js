@@ -18,7 +18,7 @@ export default function Home() {
             <Link href="/login" className="px-8 py-3 bg-green-600 text-white font-bold rounded-full hover:bg-green-700 transition duration-300 shadow-lg">
               Mulai Sekarang
             </Link>
-            <Link href="/about" className="px-8 py-3 bg-white text-green-600 font-bold rounded-full border border-green-200 hover:bg-green-50 transition duration-300">
+            <Link href="#features" className="px-8 py-4 bg-white text-green-600 font-bold rounded-full hover:bg-green-50 transition duration-300 shadow-lg border-2 border-transparent hover:border-green-100">
               Pelajari Dulu
             </Link>
           </div>
@@ -31,12 +31,11 @@ export default function Home() {
           />
         </div>
       </div>
-
-      {/* --- FITUR UTAMA (BAGIAN BARU) --- */}
-      <section className="bg-white py-20">
+      {/* Tambahkan id="features" di sini */}
+      <section id="features" className="py-20 bg-white">
         <div className="container mx-auto px-6 text-center">
-          
-          <h2 className="text-3xl font-bold text-green-900 mb-12">Kenapa EcoConnect?</h2>
+          <h2 className="text-4xl font-bold text-green-800 mb-12">Kenapa EcoConnect?</h2>
+          {/* ... sisa kode fitur ... */}
 
           {/* Grid Layout: 1 kolom di HP, 3 kolom di Laptop */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
